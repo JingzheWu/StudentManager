@@ -17,7 +17,7 @@ public class DeleteServlet extends HttpServlet {
 		int id = Integer.parseInt(req.getParameter("id"));
 		new StudentDaoImpl().delete(id);
 
-		resp.sendRedirect("/listStudent");
+		resp.sendRedirect("/StudentManager/listStudent");
 	}
 }
 

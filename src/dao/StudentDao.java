@@ -5,11 +5,9 @@ import bean.Student;
 import java.util.List;
 
 /**
- * Student 实体类的 Dao 类接口
- *
- * @author: @我没有三颗心脏
- * @create: 2018-04-26-上午 8:20
+ * Date Access Object，数据库访问对象接口
  */
+
 public interface StudentDao {
 
 	/**

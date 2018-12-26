@@ -7,8 +7,6 @@ import java.sql.SQLException;
 
 /**
  * 数据库工具类，这个类的作用是初始化驱动，并且提供一个getConnection用于获取连接。
- * Creater:@我没有三颗心脏
- * Data:2018年4月17日22:11:50
  */
 public class DBUtil {
 
@@ -17,7 +15,7 @@ public class DBUtil {
 	static String database = "student";
 	static String encoding = "UTF-8";
 	static String loginName = "root";
-	static String password = "root";
+	static String password = "097739";
 
 	static {
 

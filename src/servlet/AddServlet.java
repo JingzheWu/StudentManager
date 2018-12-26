@@ -43,6 +43,6 @@ public class AddServlet extends HttpServlet {
 
 		new StudentDaoImpl().add(student);
 
-		resp.sendRedirect("/listStudent");
+		resp.sendRedirect("/StudentManager/listStudent");
 	}
 }

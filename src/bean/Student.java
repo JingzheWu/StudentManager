@@ -3,7 +3,7 @@ package bean;
 import java.util.Date;
 
 /**
- * 学生 POJO
+ * 学生类
  */
 public class Student {
 

@@ -7,12 +7,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * StudentDao 的实现类
- *
- * @author: @我没有三颗心脏
- * @create: 2018-04-26-上午 8:20
- */
+
 public class StudentDaoImpl implements StudentDao {
 
 	@Override
